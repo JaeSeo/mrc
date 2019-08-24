@@ -1,0 +1,112 @@
+@font-face {
+    src: url("../fonts/BMJUA_otf.otf");
+    font-family: "JUA";
+}
+
+* {
+    font-family: "JUA";
+    color: #58595B;
+    box-sizing: border-box;
+}
+
+.background {
+     background-color: #F0E8D9;
+} 
+
+#top_header {
+    margin-top: 75px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 64px;
+}
+
+#sub_header {
+    margin-bottom: 75px;
+    text-align: center;
+    font-size: 32px;
+}
+
+.food {
+    margin: 0px auto 50px auto;
+}
+
+.picture {
+    display: block;
+    margin: 0px auto 0px auto;
+    width: 300px;
+    height: 200px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.desc {
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.desc .p1 {
+    text-align: center;
+    font-size: 32px;
+    margin: 0;
+}
+
+.desc .p2 {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+
+.desc a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: #0000EE;
+}
+
+.login-form {
+    background-color: #EEEFF1;
+    margin-right: auto;
+    margin-left: auto;
+    width: 500px;
+    height: 230px;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .login-form br {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .text-field {
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    color: #9B9B9B;
+    width: 400px;
+    height: 50px;
+    padding: 10px;
+  }
+  
+  .submit-btn {
+    font-size: 16px;
+    background-color: #4298f5;
+    border-radius: 5px;
+    border: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    color: #ffffff;
+    width: 260px;
+    height: 34px;
+  }
