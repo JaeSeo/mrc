@@ -18,7 +18,7 @@ exports.postMessages = (req, res, next) => {
     // Create publish parameters
     var params = {
         Message: messages, /* required */
-        PhoneNumber: phone,
+        PhoneNumber: phone
     };
   
     var publishTextPromise = new AWS.SNS({apiVersion: '2010-03-31'}).publish(params).promise();
